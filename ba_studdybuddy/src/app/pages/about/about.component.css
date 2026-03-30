@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  height: 50%;
+}
+
+.card {
+  margin: 2%;
+  background: #788BFF;
+  height: 85%;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  transition: .2s all;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 30px;
+  flex: 1;
+  text-align: justify;
+  border-radius: 25px;
+  min-width: 150px;
+}
+
+.card > span {
+  display: block;
+  margin: auto;
+  max-width: 40px;
+}
+
+.container:hover .card {
+  filter: blur(3px);
+  opacity: .5;
+  transform: scale(.98);
+  box-shadow: none;
+}
+
+.container:hover .card:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+  background: #5465FF;
+  color: white;
+  flex: 1.5;
+}
+
+.img {
+  width: 70px;
+  height: 80px;
+  background: #6b64f3;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.textbox {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+  padding: 3%;
+  overflow: hidden;
+}
+
+.name {
+  font-family: 'Mattone', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.img1 {
+  background-image: url("/assets/corgi.jpg");
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url("/assets/goose.jpg");
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url("/assets/cow.jpg");
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url("/assets/MicrosoftTeams-image.png");
+  background-size: cover;
+}
+
+.img5 {
+  background-image: url("/assets/placeholder.jpg");
+  background-size: cover;
+}
+
+.placeholder {
+  margin: 5%;
+}
