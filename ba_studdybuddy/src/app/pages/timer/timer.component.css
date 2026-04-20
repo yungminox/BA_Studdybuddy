@@ -26,8 +26,15 @@ body {
    border-radius: 2.5em;
 }
 .titel{
-    font-size: 3em;
+    font-size: 4em;
 }
+.titel2{
+    font-size: 4.5em;
+}
+p{
+   font-size: 2em; 
+}
+
 hr{
     width: 100%;
     background-color: white;

@@ -3,9 +3,15 @@
 
 <div class = "container">
     <h1 class = "titel"> Pomodoro Timer</h1>
+    <p> 4  x 25/5 min </p>
 
     <hr>
+
+    <h2 class = "titel2">{{ modus }}</h2>
+    <p> {{session}}</p>
     <h2 class = "timer" id="timer">{{ minutes }}:{{ seconds < 10 ? '0' + seconds : seconds }}</h2>
+    <p> {{finished}}</p>
+
 
     <div class="button-wrapper">
     <button id="start" (click)="start()">Start</button>
