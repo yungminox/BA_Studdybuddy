@@ -1,0 +1,16 @@
+
+<body>
+
+<div class = "container">
+    <h1 class = "titel"> Pomodoro Timer</h1>
+
+    <hr>
+    <h2 class = "timer" id="timer">{{ minutes }}:{{ seconds < 10 ? '0' + seconds : seconds }}</h2>
+
+    <div class="button-wrapper">
+    <button id="start" (click)="start()">Start</button>
+    <button id="start" (click)="stop()">Stop</button>
+    <button id="reset" (click)="reset()">Reset</button>
+    </div>
+</div>
+</body>
